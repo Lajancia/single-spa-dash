@@ -572,7 +572,7 @@ export default new Router({
 </br>
 
 #### **이미지 가이드**
-![](/dashboard.jpg)
+![](/https://raw.githubusercontent.com/Lajancia/single-spa-dash/master/image/dashboard.jpg?token=AMFCHK2JIIM7UDQSI4ASD6DAQ3AAC)
 
 </br>
 
