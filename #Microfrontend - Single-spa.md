@@ -96,7 +96,8 @@ Micro frontend 솔루션의 핵심 요소는 마이크로 앱 컴포넌트를 �
 ### **Single - SPA 예제코드 분석 (Coexisting - vue - microfrontends)**
 >원본 깃허브 주소: https://github.com/joeldenning/coexisting-vue-microfrontends
 
-![Coexisting - vue](/vue_app.png)
+![vue_app](https://user-images.githubusercontent.com/50996139/116091582-f0a20580-a6df-11eb-8ee8-12ca12bebb72.png)
+
 
 </br>
 
@@ -111,7 +112,8 @@ App2를 클릭할 시, app1과 동일하게 navbar 밑에 app2의 화면을 출�
 </br>
 
 #### **이미지 가이드** ####
-![](/vue_app2.jpg)
+![vue_app2](https://user-images.githubusercontent.com/50996139/116091544-e6800700-a6df-11eb-90c0-c1bfa8f374dc.jpg)
+
 
 #### **프로젝트 구현에 있어 각 App에 필요한 구성-공통**
 VUE_CLi 프로젝트 생성
@@ -557,7 +559,8 @@ export default new Router({
 ### **Single-spa 예제코드 분석 응용 (Dashboard 제작)**
 >깃허브 주소: https://github.com/Lajancia/single-spa-dash
 
-![](/dash1.png)
+![dash1](https://user-images.githubusercontent.com/50996139/116090999-6659a180-a6df-11eb-9039-3d266cdcdf44.png)
+
 
 </br>
 
@@ -572,7 +575,8 @@ export default new Router({
 </br>
 
 #### **이미지 가이드**
-![](/https://raw.githubusercontent.com/Lajancia/single-spa-dash/master/image/dashboard.jpg?token=AMFCHK2JIIM7UDQSI4ASD6DAQ3AAC)
+![dashboard](https://user-images.githubusercontent.com/50996139/116090970-5e016680-a6df-11eb-9bd1-31069f360c15.jpg)
+
 
 </br>
 
