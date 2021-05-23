@@ -8,8 +8,6 @@
 
 ## **왜 Micro-frontend 인가?**
 
-</br>
-
 ![monolith frontend & micro-frontend](https://www.luxoft.com/upload/uf/431/415415_FS_Building-Scalable-Web-App_blog_article_graphic_02cor.jpg)
 
 **기존의 전통적인 방식의 `monolith frontend`은 사용자 인터페이스와 데이터 엑세스 코드가 단일 플랫폼에서 단일 프로그램으로 결합되는 단일 계층 소프트웨어 응용 프로그램을 말한다.**
@@ -20,11 +18,11 @@
 
 ### **Micro-frontend 아키텍쳐에는 다음과 같은 장점이 존재한다.**</br>
 
-- Micro-frontend 아키텍쳐는 사용하기 간단하고, 비교적 관리하기가 쉽다.</br>
+- Micro-frontend 아키텍쳐는 사용하기 간단하고, 비교적 관리하기가 쉽다.
 - 독립적인 개발팀이 훨씬 쉽게 frontend 어플리케이션을 공동으로 작업하기 용이하다.
 - 하나의 코드를 여러 곳에서 재사용이 가능하다.
 - 각각의 컴포넌트에 서로 다른 기술(JavaScript, React, Vue, Angular 등)을 사용 가능하다.
-- 기존의 단일화된 코드에서 분할된 애플리케이션의 간소화된 코드가 팀에 합류하는 개발자들의 접근성을 낮추는 것에 기여한다.</br>
+- 기존의 단일화된 코드에서 분할된 애플리케이션의 간소화된 코드가 팀에 합류하는 개발자들의 접근성을 낮추는 것에 기여한다.
 
 **이번 Micro-frontend 아키텍쳐를 구현하기 위해 웹 서버의 새 데이터를 현재 웹 페이지에 동적으로 재작성하여 사용자와 상호 작용하는 웹 응용프로그램인 Single-spa를 예제를 통해 알아볼 것이다.**
 
@@ -116,8 +114,6 @@ Micro-frontend 솔루션의 핵심 요소는 micro 앱 컴포넌트를 처리할
 
 ![vue_app](https://user-images.githubusercontent.com/50996139/116091582-f0a20580-a6df-11eb-8ee8-12ca12bebb72.png)
 
-</br>
-
 ### **수행순서**
 
 1. root-html-file에 등록한 5000포트로 접속하게 되면, index.html 파일에 등록한 title테그가 주소창에 나타나며, 메인으로 navbar에 등록한 app1과 app2가 나타나게 된다.
@@ -132,6 +128,8 @@ Micro-frontend 솔루션의 핵심 요소는 micro 앱 컴포넌트를 처리할
 ### **이미지 가이드**
 
 ![vue_app2](https://user-images.githubusercontent.com/50996139/116091544-e6800700-a6df-11eb-90c0-c1bfa8f374dc.jpg)
+
+<br>
 
 ### **프로젝트 구현에 있어 각 App에 필요한 구성-공통**
 
