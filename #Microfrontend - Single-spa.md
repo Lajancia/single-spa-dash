@@ -283,7 +283,7 @@ npm i vue-router
 
 </br>
 
-2. src>main.js
+**2. src>main.js**
 
 ```js
 import "./set-public-path";
@@ -310,7 +310,7 @@ export const unmount = vueLifecycles.unmount;
 
 </br>
 
-3. src>router.js
+**3. src>router.js**
 
 ```js
 import Router from "vue-router";
@@ -326,7 +326,7 @@ export default new Router({
 
 </br>
 
-4. src>set-public-path.js
+**4. src>set-public-path.js**
 
 ```js
 import { setPublicPath } from "systemjs-webpack-interop";
@@ -340,7 +340,7 @@ setPublicPath("navbar", 2);
 
 </br>
 
-5. package.json
+**5. package.json**
 
 - serve: “vue-cli-service serve –port 8080”
 - npm i systemjs-webpack-interop을 설치하여 systemjs-webpack-interop 추가 확인
@@ -352,7 +352,7 @@ setPublicPath("navbar", 2);
 
 </br>
 
-6. vue-config.js
+**6. vue-config.js**
 
 ```js
 module.exports = {
@@ -382,7 +382,7 @@ module.exports = {
 
 </br>
 
-1. src>App.vue
+**1. src>App.vue**
 
 ```html
 <template>
@@ -408,7 +408,7 @@ module.exports = {
 
 </br>
 
-2. scr>Home.vue
+**2. scr>Home.vue**
 
 ```html
 <template>
@@ -437,12 +437,13 @@ module.exports = {
 
 </br>
 
-3. src>main.js
-   - navbar>src>main.js와 동일
+**3. src>main.js**
+
+- navbar>src>main.js와 동일
 
 </br>
 
-4. src>router.js
+**4. src>router.js**
 
 ```js
 import Router from "vue-router";
@@ -465,12 +466,13 @@ export default new Router({
 
 </br>
 
-5. src>set-public-path.js
-   - navbar>src->set-public.js 참고
+**5. src>set-public-path.js**
+
+- navbar>src->set-public.js 참고
 
 </br>
 
-6. package.json
+**6. package.json**
 
 - serve: “vue-cli-service serve --port 8081”
 - npm i systemjs-webpack-interop을 설치하여 systemjs-webpack-interop 추가 확인
@@ -478,7 +480,7 @@ export default new Router({
 
 </br>
 
-7. vue.config.js
+**7. vue.config.js**
 
 - navbar>vue.config.js와 동일
 
@@ -488,7 +490,7 @@ export default new Router({
 
 </br>
 
-#### **프로젝트 구현에 있어 각 App에 필요한 구성 - app2**
+### **프로젝트 구현에 있어 각 App에 필요한 구성 - app2**
 
 </br>
 
