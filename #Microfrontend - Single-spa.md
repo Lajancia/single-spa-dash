@@ -10,21 +10,11 @@
 
 </br>
 
-![micro-frontend](https://microfrontends.com/img/deployment.png)
+![monolith frontend & micro-frontend](https://www.luxoft.com/upload/uf/431/415415_FS_Building-Scalable-Web-App_blog_article_graphic_02cor.jpg)
 
-</br>
+**기존의 전통적인 방식의 `monolith frontend`은 사용자 인터페이스와 데이터 엑세스 코드가 단일 플랫폼에서 단일 프로그램으로 결합되는 단일 계층 소프트웨어 응용 프로그램을 말한다.**
 
-웹 애플리케이션이 점점 복잡해지는 과정에서, 많은 조직들이 단일화된 frontend 코드베이스를 유지 및 관리하고, frontend 개발 과정을 여러 팀에 걸쳐 확장할 수 있는 방법을 찾기 위해 노력하고 있다. Micro-
-frontend는 제품을 더 작고 단순한 애플리케이션의 단위로 분할을 통해 독립적이고 자율적인 팀 개발 환경을 제공하여 이러한 복잡성을 관리하는 하나의 접근 방식이다.
-
-</br>
-
-### **Micro-frontend를 사용하는 이유**</br>
-
-- 업그레이드 시 전체를 재구축할 필요가 없다. 각 앱들은 상호 분리되어 있는 구조이기 때문에 언제든지 필요한 소스만 수정하거나 새로운 웹 앱을 구성하여 추가할 수 있다. 점진적 개발이 가능하다.
-- 각각의 Micro-frontend 앱의 소스는 기존의 모놀리식 프로젝트의 소스보다 훨씬 작다. 이는 코드의 복잡성을 줄이고 개발자 친화적이다.
-- Micro-frontend를 사용한 웹 앱의 경우 Micro-frontend 앱을 모아서 큰 웹 앱을 만드는 것이므로 각 Micro-frontend 앱은 독립적이며 각각의 프로젝트 환경, 테스트 및 배포할 수 있다.
-- 프로젝트의 일부분을 각 Micro-frontend 개발 팀이 완전히 소유할 수 있다. 해당 프로젝트의 개발 환경 등은 각 팀 별로 구성할 수 있어 신속하고 효과적으로 수행할 수 있다.
+이는 개발자로 하여금 독립적인 개발 진행을 어렵게 하고, 부분적인 기능 개선과 업데이트에 많은 시간이 걸린다는 단점이 있다. 웹 애플리케이션이 점점 복잡해지는 과정에서, 많은 조직들이 단일화된 frontend 코드베이스를 유지 및 관리하고, frontend 개발 과정을 여러 팀에 걸쳐 확장할 수 있는 방법을 찾기 위해 노력하고 있다. `Micro-frontend`는 제품을 더 작고 단순한 애플리케이션의 단위로 분할을 통해 독립적이고 자율적인 팀 개발 환경을 제공하여 이러한 복잡성을 관리하는 하나의 접근 방식이다.
 
 </br>
 
@@ -62,7 +52,7 @@ frontend는 제품을 더 작고 단순한 애플리케이션의 단위로 분�
 
 #### **Forward Proxy**
 
-Micro-frontend 솔루션의 핵심 요소는 micro 앱 컴포넌트를 처리할 전용 서버를 설정하는 것에 있다. 이는 리버스 프록시이다. 이에 대하여 알기 전에, forward proxy에 대하여 알아볼 필요가 있다.
+Micro-frontend 솔루션의 핵심 요소는 micro 앱 컴포넌트를 처리할 전용 서버를 설정하는 것에 있다. 이는 reverse proxy이다. 이에 대하여 알기 전에, forward proxy에 대하여 알아볼 필요가 있다.
 
 </br>
 
@@ -592,7 +582,7 @@ export default new Router({
 
 </br>
 
-8. src>components>HelloWorld.vue
+**8. src>components>HelloWorld.vue**
 
 ```html
 <template>
