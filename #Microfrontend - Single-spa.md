@@ -1,4 +1,4 @@
-# **Micro-frontend - Single-SPA**
+# **Micro-frontend & Single-SPA**
 
 > 작성자: 한국외국어대학교 컴퓨터전자시스템공학부 - 황수민
 
@@ -8,11 +8,11 @@
 
 ## **왜 Micro-frontend 인가?**
 
-![monolith frontend & micro-frontend](https://www.luxoft.com/upload/uf/431/415415_FS_Building-Scalable-Web-App_blog_article_graphic_02cor.jpg)
+![monolithic frontend & micro-frontend](https://www.luxoft.com/upload/uf/431/415415_FS_Building-Scalable-Web-App_blog_article_graphic_02cor.jpg)
 
-**기존의 전통적인 방식의 `monolith frontend`은 사용자 인터페이스와 데이터 엑세스 코드가 단일 플랫폼에서 단일 프로그램으로 결합되는 단일 계층 소프트웨어 응용 프로그램을 말한다.**
+**기존의 전통적인 방식의 `monolithic frontend`은 사용자 인터페이스와 데이터 엑세스 코드가 단일 플랫폼에서 단일 프로그램으로 결합되는 단일 계층 소프트웨어 응용 프로그램을 말한다.**
 
-이는 개발자로 하여금 독립적인 개발 진행을 어렵게 하고, 부분적인 기능 개선과 업데이트에 많은 시간이 걸린다는 단점이 있다. 웹 애플리케이션이 점점 복잡해지는 과정에서, 많은 조직들이 단일화된 frontend 코드베이스를 유지 및 관리하고, frontend 개발 과정을 여러 팀에 걸쳐 확장할 수 있는 방법을 찾기 위해 노력하고 있다. `Micro-frontend`는 제품을 더 작고 단순한 애플리케이션의 단위로 분할을 통해 독립적이고 자율적인 팀 개발 환경을 제공하여 이러한 복잡성을 관리하는 하나의 접근 방식이다.
+이는 개발자로 하여금 독립적인 개발 진행을 어렵게 하고, 부분적인 기능 개선과 업데이트에 많은 시간이 걸린다는 단점이 있다. 웹 애플리케이션이 점점 복잡해지는 과정에서, 많은 조직들이 단일화된 frontend 코드베이스를 유지 및 관리하고, frontend 개발 과정을 여러 팀에 걸쳐 확장할 수 있는 방법을 찾기 위해 노력하고 있다. 이때 등장한 `Micro-frontend`는 제품을 더 작고 단순한 애플리케이션의 단위로 분할을 통해 독립적이고 자율적인 팀 개발 환경을 제공하여 이러한 복잡성을 관리하는 하나의 접근 방식이다.
 
 </br>
 
@@ -596,7 +596,11 @@ export default new Router({
 
 - HelloWorld.vue에서 About.vue로 가는 링크를 타게 되면, App.vue, Home.vue, About.vue로 배치되어 화면에 해당 내용이 출력된다.
 
-</br>
+<br>
+
+---
+
+<br/>
 
 ## **Single-spa 예제코드 분석 응용 (Dashboard 제작)**
 
